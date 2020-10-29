@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="co.project.partseasy.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="co.project.partseasy.ui.Deals.DealsFragment"
+        android:label="Deals"
+        tools:layout="@layout/fragment_deals" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="co.project.partseasy.ui.ReportCard.ReportCardFragment"
+        android:label="Shop By Category"
+        tools:layout="@layout/fragment_shop_by_category" />
+    <fragment
+        android:id="@+id/nav_booking"
+        android:name="co.project.partseasy.ui.Booking.BookingFragment"
+        android:label="Booking"
+        tools:layout="@layout/booking_fragment" />
+</navigation>

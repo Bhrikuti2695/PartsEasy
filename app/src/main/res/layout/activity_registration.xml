@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:background="#B30808"
+    tools:context=".RegistrationActivity">
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="1"
+     android:text="Great! Provide your basic details..."
+     android:gravity="center_vertical"
+     android:textColor="#ffff"
+     android:textSize="16dp"
+     android:textStyle="bold"
+     android:layout_margin="2dp"
+     android:layout_marginTop="12dp"
+     android:layout_marginLeft="12dp"
+     />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Company Name"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:textSize="16dp"
+        android:layout_margin="2dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Shop Name"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:textSize="16dp"
+        android:layout_margin="2dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Your Name"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:textSize="16dp"
+        android:layout_margin="2dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Email Address(Optional)"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:textSize="16dp"
+        android:layout_margin="2dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Pincode"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:textSize="16dp"
+        android:layout_margin="2dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select your shop area (sqft)"
+            android:gravity="center_vertical"
+            android:textColorHint="#ffff"
+            android:textColor="#ffff"
+            android:textSize="16dp"
+            android:layout_margin="2dp"
+            />
+
+        <include layout="@layout/shop_area"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+       <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:text="PROCEED"
+        android:background="#ffff"
+        android:textColor="#B30808"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+           android:id="@+id/btn_rg_proceed"
+        />
+    </LinearLayout>
+
+</LinearLayout>

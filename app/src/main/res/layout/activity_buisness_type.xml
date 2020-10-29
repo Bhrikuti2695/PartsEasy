@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B30808"
+    tools:context=".BuisnessType">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Select Buisness type :-"
+    android:textSize="16dp"
+    android:textStyle="bold"
+    android:textColor="#ffff"
+    android:layout_margin="4dp"
+    android:padding="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_baseline_bubble_chart_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retailer"
+            android:textSize="20dp"
+            android:textColor="#0e0e0e"
+            android:layout_margin="4dp"
+            android:padding="4dp"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#B30808"
+            android:layout_gravity="right"
+            android:layoutDirection="rtl"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_baseline_bubble_chart_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distributor"
+            android:textSize="20dp"
+            android:textColor="#0e0e0e"
+            android:layout_margin="4dp"
+            android:padding="4dp"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#B30808"
+            android:layout_gravity="right"
+            android:layoutDirection="rtl"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_baseline_bubble_chart_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wholesaler"
+            android:textSize="20dp"
+            android:textColor="#0e0e0e"
+            android:layout_margin="4dp"
+            android:padding="4dp"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#B30808"
+            android:layout_gravity="right"
+            android:layoutDirection="rtl"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_baseline_bubble_chart_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Firm"
+            android:textSize="20dp"
+            android:textColor="#0e0e0e"
+            android:layout_margin="4dp"
+            android:padding="4dp"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#B30808"
+            android:layout_gravity="right"
+            android:layoutDirection="rtl"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:text="PROCEED"
+        android:background="#ffff"
+        android:textColor="#B30808"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:id="@+id/btn_bt_proceed"
+        />
+</LinearLayout>

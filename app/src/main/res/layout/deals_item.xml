@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:layout_margin="2dp"
+    android:orientation="vertical">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:gravity="center"
+          android:layout_margin="4dp"
+          android:padding="4dp">
+          <ImageView
+              android:layout_width="70dp"
+              android:layout_height="80dp"
+              android:src="@drawable/ic_baseline_bubble_chart_24"
+              android:scaleType="fitXY"
+              />
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_margin="4dp"
+              android:padding="4dp">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Product Description"
+                 android:id="@+id/randomText"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Price of Product    Orignal Price"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Posted on 08/10/2020"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Posted By: Ravi"/>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="2">
+                  <TextView
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="Chat"
+                      android:textSize="18dp"
+                      android:background="?attr/colorPrimary"
+                      android:textColor="#ffff"
+                      android:drawableLeft="@drawable/ic_baseline_chat_24"
+                      android:drawablePadding="4dp"
+                      android:padding="4dp"
+                      android:layout_margin="4dp"
+                      />
+                  <TextView
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="Whatsapp"
+                      android:textSize="18dp"
+                      android:background="?attr/colorPrimary"
+                      android:textColor="#ffff"
+                      android:drawableLeft="@drawable/ic_baseline_call_24"
+                      android:drawablePadding="4dp"
+                      android:padding="4dp"
+                      android:layout_margin="4dp"
+                      />
+              </LinearLayout>
+          </LinearLayout>
+      </LinearLayout>
+</LinearLayout>

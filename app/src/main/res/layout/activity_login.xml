@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B30808"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#ffff"
+        android:hint="Enter Mobile Number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:textColorHint="#ffff"
+    android:hint="Enter OTP here..."
+        android:maxLength="6"
+        android:inputType="number"
+    android:layout_margin="10dp"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:text="VERIFY"
+        android:background="#ffff"
+        android:textColor="#B30808"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:id="@+id/btn_verify"
+        />
+</LinearLayout>
